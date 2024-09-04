@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.skills-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-tittle {
+  color: #fff;
+  margin-right: 40px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "inter";
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.skills-content:hover {
+  transform: scale(1.2);
+}
+
+.skills-img {
+  display: inline-flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.ts {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ts-right {
+  margin-right: 50px;
+}
+
+.skills-border {
+  border: 2px solid rgba(224, 82, 177, 0.2);
+  padding: 10px;
+  border-radius: 30px;
+}
