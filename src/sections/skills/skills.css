@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .skills-container {
-  margin-top: 80px;
+  margin-top: 150px;
   display: flex;
   justify-content: space-between;
 }
@@ -42,7 +42,7 @@
 }
 
 .skills-border {
-  border: 2px solid rgba(224, 82, 177, 0.2);
+  border: 2px solid rgba(67, 86, 178, 0.2);
   padding: 10px;
   border-radius: 30px;
 }

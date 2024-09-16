@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to top, #0a0a0a, #131313, #130b28);
+  background-repeat: no-repeat; /* Impede que o gradiente se repita */
+  background-attachment: fixed; /* Mantém o gradiente fixo durante o scroll */
+  background-size: cover; /* Faz o gradiente cobrir todo o fundo da página */
+  padding: 40px 80px;
+}
+
+
+
+/* SECTION HOME */
+
+
+.typed-cursor {
+  font-weight: bold;
+  font-size: 35px; 
+  color: #4356b2; 
+ 
+  animation: blink 0.7s infinite; 
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.m-text {
+  margin-bottom: 30px;
+}
+
+.multiple-text {
+  font-family: "inter";
+  font-weight: bold;
+  font-size: 32px;
+  
+}
+
+.p {
+  text-align: justify;
+  padding: 5px 45px;
+}
+
+.home-content {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 100px;
+ text-align: center;
+  font-family: "inter";
+}
+
+.social-media {
+  margin-top: 50px;
+}
+
+.btn-social-media {
+  margin-top: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #4356b2;
+  padding: 8px;
+  border: 2px solid #4356b2;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.btn-social-media:hover {
+  box-shadow: 0 0 15px #748afc;
+}
+
+.btn {
+  background-color: #4356b2;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #4356b2;
+  transition: 0.3s ease-in-out;
+  margin-left: -18px;
+  text-decoration: none;
+  font-family: "inter", Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid #6e85f8;
+  color: #6e85f8;
+  box-shadow: 0 0 15px #8d9ef2;
+}

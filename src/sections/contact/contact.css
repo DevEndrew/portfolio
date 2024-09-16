@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.contact-container {
+  margin-top: 150px;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;  
+  align-items:center;
+
+ 
+
+
+  
+}
+
+.name-form, .email-form, .number-form, .subject-form {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  background-color: #1a1a1e;
+  font-size: 18px;
+  color: white;
+  border: none;
+  font-family: 'inter';
+  outline: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.message-form {
+  width: 500px;
+  height: 250px;
+  resize: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #1a1a1e;
+  font-size: 18px;
+  color: white;
+  border: none;
+  font-family: 'inter';
+  outline: none;
+}
+
+.send-form {
+  margin-top: 10px;
+  padding: 15px 20px;
+  font-family: 'inter';
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #4356b2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #4356b2;
+}
+
+.send-form:hover {
+  background-color: transparent;
+  color: #6e85f8;
+  box-shadow: 0 0 15px #8d9ef2;
+}

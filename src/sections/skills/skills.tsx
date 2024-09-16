@@ -10,7 +10,7 @@ import ts from "../../../public/ts.svg";
 function Skills() {
   return (
     <>
-      <main className="main-skills">
+      <main id="Habilidades" className="main-skills">
         <div className="skills-container">
           <div className="skills-tittle">
             <h1>Habilidades</h1>

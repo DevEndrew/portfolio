@@ -1,18 +1,22 @@
-import Home from "../src/pages/home/home.tsx";
-import Contact from "./pages/contact/contact.tsx";
-import Skills from "../src/pages/skills/skills.tsx";
-import Footer from "../src/components/footer.tsx";
-import Projects from "./pages/projects/projects.tsx";
+import Pages from "./pages/pages"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <>
-      <Home />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </>
+<>
+<Router>
+        <Routes>
+          <Route path="/" element={<Pages/>} />
+          
+        </Routes>
+      </Router>
+</>
+     
+
+
+       
+ 
   );
 }
 
